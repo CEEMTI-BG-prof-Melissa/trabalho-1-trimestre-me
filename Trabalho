@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="stylesheet" href="index.css" type="text/css">
+		<meta charset="UTF-8">
+		<title>Analise de Requisitos</title>
+	</head>
+
+	<body>
+
+    	<header>
+			<h1>Biblioteca Digital</h1>
+		</header>
+
+		<nav>
+			<a href="#funcionais">Funcionais</a>
+			<a href="#não">Não Funcionais</a>
+			<a href="#inversos">Inversos</a>
+		</nav>
+
+		<main>
+
+			<section>
+			    <hr>
+				<h1 id="funcionais">Requisitos Funcionais</h1>
+				<ul>
+					<li>O sistema deve incentivar a leitura</li>
+					<li>O sistema deve ter um lembrete automático para devoluções</li>
+					<li>O sistema deve recomendar livros baseados no que já foram lidos</li>
+					<li>O sistema deve oferecer um espaço para discussão sobre os livros</li>
+					<li>O sistema deve registrar os livros lidos por mais tempo</li>
+					<li>O sistema deve oferecer uma biblioteca digital integrada no sistema escolar</li>
+					<li>O sistema deve mostrar quais livros estão disponíveis para reserva</li>
+					<li>O sistema deve permitir sugestões de livros</li>
+				</ul>
+			    </hr>
+			</section>
+
+			<section>
+			    <hr>
+				<h1 id="não">Requisitos Não Funcionais</h1>
+				<ul>
+					<li>O sistema deve ser fácil de usar</li>
+					<li>O sistema deve ter uma interface simples</li>
+					<li>O sistema deve funcionar em celular</li>
+					<li>O sistema deve funcionar em computador</li>
+					<li>O sistema deve carregar rapidamente</li>
+					<li>O sistema deve proteger os dados dos usuários</li>
+					<li>O sistema deve ser organizado visualmente</li>
+					<li>O sistema deve ser responsivo em diferentes telas</li>
+				</ul>
+				</hr>
+			</section>
+
+			<section>
+			    <hr>
+				<h1 id="inversos">Requisitos Inversos</h1>
+				<ul>
+					<li>O sistema não deve permitir acesso de pessoas não cadastradas</li>
+					<li>O sistema não deve mostrar dados pessoais de outros alunos</li>
+					<li>O sistema não deve permitir reservas duplicadas</li>
+					<li>O sistema não deve travar com facilidade</li>
+					<li>O sistema não deve ter uma navegação confusa</li>
+				</ul>
+				</hr>
+			</section>
+
+		</main>
+
+		<footer>
+			Turma: 3° IPI 02 <br>
+			Aluno: Miguel Fontes Ferreira
+		</footer>
+
+	</body>
+</html>
